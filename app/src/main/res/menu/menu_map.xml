@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_done"
+        android:icon="@drawable/ic_action_done"
+        android:title="ОК"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_find"
+        android:icon="@drawable/ic_action_find"
+        android:title="Найти"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_auto"
+        android:icon="@drawable/ic_action_auto"
+        android:title="Авто поиск"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_location"
+        android:icon="@drawable/ic_action_location"
+        android:title="Районы"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>

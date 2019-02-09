@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Новая заявка"/>
+
+        <Spinner
+            android:id="@+id/new_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Spinner>
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Разрыв"/>
+
+        <Spinner
+            android:id="@+id/disconnect_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Восстановление"/>
+
+        <Spinner
+            android:id="@+id/reconnected_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Spinner>
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Выезд"/>
+
+        <Spinner
+            android:id="@+id/go_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Spinner>
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/disable_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отключить звук: "
+        android:layout_margin="10sp"/>
+
+    <Switch
+        android:id="@+id/disable_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отключить звук разрыва: "
+        android:layout_margin="10sp"/>
+
+    <Switch
+        android:id="@+id/switch_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статус: "
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:id="@+id/radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Радиус приема заявок в метрах"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Применить"
+        android:layout_margin="10sp"/>
+
+</LinearLayout>

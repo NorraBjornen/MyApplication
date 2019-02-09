@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_map"
+        android:icon="@drawable/ic_action_map"
+        android:title="Отметиться"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_balance"
+        android:icon="@drawable/ic_menu_balance"
+        android:title="Баланс"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_switch"
+        android:icon="@drawable/ic_action_switch"
+        android:title="Смена статуса"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_settings"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="Настройки"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_item_exit_line"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="Выход"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
